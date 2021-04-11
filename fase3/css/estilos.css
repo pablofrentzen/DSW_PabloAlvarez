@@ -1,0 +1,27 @@
+header{
+    background-color: turquoise;
+    padding: 20px;
+}
+nav{
+    background-color: turquoise;
+    padding: 10px;
+}
+section{
+    float: left;
+    width: 70%;
+    background-color:turquoise
+}
+aside{
+    float: left;
+    width: 30%;
+    background-color:turquoise
+}
+footer{
+    background-color: violet;
+    padding: 10px;
+}
+.contenedor::after{
+    content: "";
+    display: block;
+    clear: both;
+}
